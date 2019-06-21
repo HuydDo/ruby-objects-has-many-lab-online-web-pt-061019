@@ -11,11 +11,6 @@ class Post
 
   def author_name
     self.author == nil ? nil : self.author.name
-    # if self.author == nil
-    #   nil
-    # else
-    #   self.author.name
-    # end
   end
 
   def self.all
